@@ -1,8 +1,8 @@
 # AvxToNeon
 
 #### Description
-A system acceleration library for porting from x86 architecture to arm architecture.
-When applications using Intel intrinsic instructions are ported from the x86 architecture to arm architecture, the instructions need to be further developed because the Arm64 instruction names and functions are different from that of x86. As a result, huge porting workloads are caused. In this project, the frequently used AVX instructions are encapsulated as independent modules to reduce repeated development workload. The AVX instructions are replaced with related NEON SIMD instructions, while the instruction names and functions remain unchanged. Users can invoke the corresponding instructions by importing related header files into the application software. 
+A system acceleration library for porting from x86 architecture to Kunpeng architecture.
+When applications using Intel intrinsic instructions are ported from the x86 architecture to Kunpeng architecture, the instructions need to be further developed because the Arm64 instruction names and functions are different from that of x86. As a result, huge porting workloads are caused. In this project, the frequently used AVX instructions are encapsulated as independent modules to reduce repeated development workload. The AVX instructions are replaced with related NEON SIMD instructions, while the instruction names and functions remain unchanged. Users can invoke the corresponding instructions by importing related header files into the application software. 
 
 #### Software Architecture
 - data: folder of test data
@@ -70,15 +70,6 @@ If you wish to get source code of functions listed in supportedlist.md, you can 
 2.  Create Feat_xxx branch
 3.  Commit your code
 4.  Create Pull Request
-
-#### Gitee Feature
-
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
 
 #### Copyright
 
